@@ -7,11 +7,6 @@ WORKDIR /app
 # Copiar el archivo C# al contenedor
 COPY . /app
 
-# Restaurar las dependencias (si las hay)
-RUN dotnet restore
-
-# Compilar el archivo C# (en este caso asumiendo que el nombre del archivo es Program.cs)
-RUN dotnet build
 
 # Ejecutar el código C# cuando el contenedor se inicie
 CMD ["dotnet", "run"]
