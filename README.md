@@ -15,7 +15,7 @@
 
 1. **Scripts individuales**:
     - Cada script implementa un cálculo del factorial de un número grande (por defecto `10000`) y mide el tiempo de ejecución.
-    - El resultado incluye el número de dígitos del factorial calculado y el tiempo de ejecución.
+    - El resultado incluye el tiempo de ejecución del script.
   
 2. **Dockerfiles**:
     - Cada lenguaje tiene su propio `Dockerfile` que construye una imagen con el entorno adecuado para ejecutar el script de factorial en su respectivo lenguaje.
