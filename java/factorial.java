@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Factorial {
+public class factorial {
     public static void main(String[] args) {
         int n = 10000;
         long startTime = System.currentTimeMillis();
