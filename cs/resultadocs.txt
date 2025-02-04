@@ -1,2 +1,6 @@
 Dígitos en 10000! : 35660
+<<<<<<< HEAD:cs/resultadocs.txt
 Tiempo de ejecución: 23 ms
+=======
+Tiempo de ejecución: 23 ms
+>>>>>>> 4a8c5816e52da3671f9f088f5f1c268c94b0302b:cs/proyectocsharp/resultadocs.txt
