@@ -28,4 +28,4 @@ docker build -t cs-image .
 docker run --rm cs-image
 cd ..
 
-echo "Todos los scripts ejecutados."
+echo "Todos los scripts ejecutados. :)"
