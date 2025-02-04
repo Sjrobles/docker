@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Compilar el archivo Java
-RUN javac Factorial.java
+RUN javac factorial.java
 
 # Ejecutar el código Java cuando el contenedor se inicie
-CMD ["java", "Factorial"]
+CMD ["java", "factorial"]
