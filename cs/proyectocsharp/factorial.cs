@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Numerics;
@@ -24,3 +24,4 @@ class Program {
         Console.WriteLine(output);
     }
 }
+

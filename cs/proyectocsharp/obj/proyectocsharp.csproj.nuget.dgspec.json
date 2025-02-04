@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\factorial\\factorial.csproj": {}
+    "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\proyectocsharp\\proyectocsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\factorial\\factorial.csproj": {
+    "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\proyectocsharp\\proyectocsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\factorial\\factorial.csproj",
-        "projectName": "factorial",
-        "projectPath": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\factorial\\factorial.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\proyectocsharp\\proyectocsharp.csproj",
+        "projectName": "proyectocsharp",
+        "projectPath": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\proyectocsharp\\proyectocsharp.csproj",
         "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\factorial\\obj\\",
+        "outputPath": "C:\\Users\\samue\\Desktop\\Docker\\docker\\cs\\proyectocsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config"

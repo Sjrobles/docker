@@ -1,0 +1,2 @@
+Dígitos en 10000! : 35660
+Tiempo de ejecución: 23 ms

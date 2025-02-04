@@ -1,0 +1,15 @@
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\bin\Debug\net9.0\proyectocsharp.exe
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\bin\Debug\net9.0\proyectocsharp.deps.json
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\bin\Debug\net9.0\proyectocsharp.runtimeconfig.json
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\bin\Debug\net9.0\proyectocsharp.dll
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\bin\Debug\net9.0\proyectocsharp.pdb
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.AssemblyInfoInputs.cache
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.AssemblyInfo.cs
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.csproj.CoreCompileInputs.cache
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.sourcelink.json
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.dll
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\refint\proyectocsharp.dll
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.pdb
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\proyectocsharp.genruntimeconfig.cache
+C:\Users\samue\Desktop\Docker\docker\cs\proyectocsharp\obj\Debug\net9.0\ref\proyectocsharp.dll
