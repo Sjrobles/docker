@@ -1,0 +1,14 @@
+# Usar una imagen base de Node.js
+FROM node:16
+
+# Establecer el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiar el archivo de código JavaScript al contenedor
+COPY . /app
+
+# Instalar dependencias (en caso de que haya un package.json)
+# RUN npm install
+
+# Ejecutar el código JavaScript cuando el contenedor se inicie
+CMD ["node", "factorial.js"]

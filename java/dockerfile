@@ -1,0 +1,14 @@
+# Usar una imagen base de OpenJDK
+FROM openjdk:17
+
+# Establecer el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiar el archivo de código Java al contenedor
+COPY . /app
+
+# Compilar el archivo Java
+RUN javac Factorial.java
+
+# Ejecutar el código Java cuando el contenedor se inicie
+CMD ["java", "Factorial"]

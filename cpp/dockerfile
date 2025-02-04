@@ -1,0 +1,20 @@
+# Usar una imagen base de C++ (Ubuntu con compilador GCC)
+FROM ubuntu:20.04
+
+# Instalar las dependencias necesarias (G++, make y otros paquetes)
+RUN apt-get update && apt-get install -y \
+    g++ \
+    make \
+    && rm -rf /var/lib/apt/lists/*
+
+# Establecer el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiar el archivo C++ al contenedor
+COPY . /app
+
+# Compilar el archivo C++ (asumiendo que el archivo se llama factorial.cpp)
+RUN g++ -o factorial factorial.cpp
+
+# Ejecutar el código C++ cuando el contenedor se inicie
+CMD ["./factorial"]
