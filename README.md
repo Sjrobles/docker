@@ -5,7 +5,7 @@
 - **js/**: Contiene el script de JavaScript (`factorial.js`) y su `Dockerfile`.
 - **java/**: Contiene el script de Java (`factorial.java`) y su `Dockerfile`.
 - **cs/**: Contiene el script de C# (`factorial.cs`) y su `Dockerfile`.
--  **cpp/**: Contiene el script de C# (`factorial.cpp`) y su `Dockerfile`.
+-  **cpp/**: Contiene el script de C++ (`factorial.cpp`) y su `Dockerfile`.
 
 ### Archivos de salida:
 
