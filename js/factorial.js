@@ -1,7 +1,6 @@
 const fs = require('fs');
 
-console.time("Tiempo de ejecución");
-
+const start = process.hrtime.bigint();
 function factorial(n) {
     let result = BigInt(1);
     for (let i = 2; i <= n; i++) {
@@ -9,11 +8,12 @@ function factorial(n) {
     }
     return result;
 }
-
 const n = 10000;
-const result = factorial(n);
+factorial(n);
+const end = process.hrtime.bigint();
 
-console.timeEnd("Tiempo de ejecución");
+// Convertir a milisegundos
+const executionTime = Number(end - start) / 1e6;
 
-// Guardar los resultados en un archivo
-fs.appendFileSync('resultadoJS.txt', `Tiempo de ejecución: ${process.hrtime.bigint()} ns\n`, 'utf8');
+console.log(`Tiempo de ejecución: ${executionTime.toFixed(2)} ms`);
+fs.appendFileSync('resultadoJS.txt', `Tiempo de ejecución: ${executionTime.toFixed(2)} ms\n`, 'utf8');
