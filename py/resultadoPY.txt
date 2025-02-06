@@ -1,1 +1,1 @@
-Tiempo de ejecuci�n: 18.25 ms
+Tiempo de ejecuci�n: 18.25 
