@@ -1,1 +1,1 @@
-Tiempo de ejecución: 42 ms
+Tiempo de ejecución: 42 
