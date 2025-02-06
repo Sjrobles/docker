@@ -1,3 +1,2 @@
-Tiempo de ejecución: 7242904389700 ns
-Tiempo de ejecución: 3438968739300 ns
-Tiempo de ejecución: 25.37 ms
+
+Tiempo de ejecución: 25.37 
