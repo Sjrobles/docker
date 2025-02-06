@@ -20,8 +20,7 @@ class Program {
         // Guardar en un archivo de texto
         File.WriteAllText("resultadoCS.txt", output);
 
-        // También se puede imprimir en consola si se desea
-        Console.WriteLine(output);
+        
     }
 }
 
