@@ -15,5 +15,5 @@ const end = process.hrtime.bigint();
 // Convertir a milisegundos
 const executionTime = Number(end - start) / 1e6;
 
-console.log(`Tiempo de ejecución: ${executionTime.toFixed(2)} ms`);
+console.log(`Tiempo de ejecución: ${executionTime.toFixed(2)}`);
 fs.appendFileSync('resultadoJS.txt', `Tiempo de ejecución: ${executionTime.toFixed(2)} ms\n`, 'utf8');
