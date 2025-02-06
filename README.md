@@ -5,11 +5,11 @@
 - **js/**: Contiene el script de JavaScript (`factorial.js`) y su `Dockerfile`.
 - **java/**: Contiene el script de Java (`factorial.java`) y su `Dockerfile`.
 - **cs/**: Contiene el script de C# (`factorial.cs`) y su `Dockerfile`.
--  **cpp/**: Contiene el script de C++ (`factorial.cpp`) y su `Dockerfile`.
+-  **ruby/**: Contiene el script de C++ (`factorial.rb`) y su `Dockerfile`.
 
 ### Archivos de salida:
 
-- **`resultado_python.txt`**, **`resultado_js.txt`**, **`resultado_java.txt`**, **`resultado_cs.txt`**,**`resultado_c++.txt`**: Archivos donde se almacenan los resultados de la ejecución de cada script, incluyendo el tiempo de ejecución.
+- **`resultado_python.txt`**, **`resultado_js.txt`**, **`resultado_java.txt`**, **`resultado_cs.txt`**,**`resultado_rb.txt`**: Archivos donde se almacenan los resultados de la ejecución de cada script, incluyendo el tiempo de ejecución.
 
 ## Funcionalidad
 
@@ -53,6 +53,6 @@
 
 4. **Resultados**:
     - El script ejecutará cada uno de los lenguajes y mostrará en la consola los resultados ordenados por tiempo de ejecución.
-    - Los tiempos de ejecución también se guardarán en los archivos `resultado_python.txt`, `resultado_js.txt`, `resultado_java.txt`, `resultado_c++.txt`, y `resultado_cs.txt`.
+    - Los tiempos de ejecución también se guardarán en los archivos `resultado_python.txt`, `resultado_js.txt`, `resultado_java.txt`, `resultado_ruby.txt`, y `resultado_cs.txt`.
 
 
