@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Numerics;
@@ -15,12 +15,9 @@ class Program {
 
         stopwatch.Stop();
         
-        output += $"Tiempo de ejecución: {stopwatch.ElapsedMilliseconds} ms";
+        string output = $"{stopwatch.ElapsedMilliseconds}";
 
         // Guardar en un archivo de texto
         File.WriteAllText("resultadoCS.txt", output);
-
-        
     }
 }
-
