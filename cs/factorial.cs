@@ -14,7 +14,7 @@ class Program {
         }
 
         stopwatch.Stop();
-        string output = $"Dígitos en {n}! : {result.ToString().Length}\n";
+        
         output += $"Tiempo de ejecución: {stopwatch.ElapsedMilliseconds} ms";
 
         // Guardar en un archivo de texto
