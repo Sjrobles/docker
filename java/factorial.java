@@ -22,7 +22,7 @@ public class factorial {
         }
 
         // Imprimir el tiempo de ejecución
-        System.out.println("Tiempo de ejecución: " + execTime + " ms");
+        System.out.println("Tiempo de ejecución: " + execTime);
     }
 
     public static BigInteger factorial(int n) {
