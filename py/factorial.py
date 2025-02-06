@@ -21,4 +21,4 @@ with open("resultadoPY.txt", "w") as file:
     file.write(f"Tiempo de ejecución: {execution_time:.2f} ms\n")
 
 # Imprimir también en consola
-print(f"Tiempo de ejecución: {execution_time:.2f} ms")
+print(f"Tiempo de ejecución: {execution_time:.2f}")
