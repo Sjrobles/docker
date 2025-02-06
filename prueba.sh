@@ -1,33 +1,35 @@
-#!/bin/sh
+#!/bin/bash
 
-SOLUTIONS_DIR="docker"
-LANGUAGES="cs java js py"
+# Ejecutar Python
+echo "Entrando a la carpeta Python..."
+cd py
+docker build -t python-image .
+EXEC_TIME_PY=$(docker run --rm python-image | awk '{print $NF}')
+echo "Tiempo de ejecución de Python: $EXEC_TIME_PY ms"
+cd ..
 
-declare -A TIMES
+# Ejecutar JavaScript
+echo "Entrando a la carpeta JavaScript..."
+cd js
+docker build -t js-image .
+EXEC_TIME_JS=$(docker run --rm js-image | awk '{print $NF}')
+echo "Tiempo de ejecución de JavaScript: $EXEC_TIME_JS ns"
+cd ..
 
-echo "===== Construyendo y ejecutando los contenedores ====="
+# Ejecutar Java
+echo "Entrando a la carpeta Java..."
+cd java
+docker build -t java-image .
+EXEC_TIME_JAVA=$(docker run --rm java-image | awk '{print $NF}')
+echo "Tiempo de ejecución de Java: $EXEC_TIME_JAVA ms"
+cd ..
 
-for lang in $LANGUAGES; do
-    echo "Construyendo y ejecutando $lang"
-    cd "$lang" || continue
+# Ejecutar C#
+echo "Entrando a la carpeta C#..."
+cd cs
+docker build -t cs-image .
+EXEC_TIME_CS=$(docker run --rm cs-image | awk '{print $NF}')
+echo "Tiempo de ejecución de C#: $EXEC_TIME_CS ms"
+cd ..
 
-    # Construir la imagen
-    docker build -t "${lang}_solution" .
-
-    # Capturar tiempo de ejecución en milisegundos
-    START_TIME=$(date +%s%3N)
-    docker run --rm "${lang}_solution"
-    END_TIME=$(date +%s%3N)
-    
-    # Calcular tiempo total
-    EXEC_TIME=$((END_TIME - START_TIME))
-    TIMES[$lang]=$EXEC_TIME
-
-    cd ..
-
-done
-
-echo "===== Resultados ordenados por tiempo de ejecución ====="
-for lang in $(printf "%s\n" "${!TIMES[@]}" | sort -n -k2 -t= <<< "${!TIMES[@]}=${TIMES[@]}"); do
-    echo "$lang: ${TIMES[$lang]} ms"
-done
+echo "Todos los scripts ejecutados. :)"
