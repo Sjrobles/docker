@@ -1,0 +1,11 @@
+# Usar una imagen oficial de Ruby
+FROM ruby:3.1
+
+# Establecer el directorio de trabajo en el contenedor
+WORKDIR /usr/src/app
+
+# Copiar el archivo Ruby al contenedor
+COPY factorial.rb .
+
+# Ejecutar el archivo Ruby
+CMD ["ruby", "factorial.rb"]
