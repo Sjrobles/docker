@@ -62,6 +62,5 @@ https://github.com/Sjrobles/docker.git
 
 4. **Resultados**:
     - El script ejecutará cada uno de los lenguajes y mostrará en la consola los resultados ordenados por tiempo de ejecución.
-    - Los tiempos de ejecución también se guardarán en los archivos `resultado_python.txt`, `resultado_js.txt`, `resultado_java.txt`, `resultado_ruby.txt`, y `resultado_cs.txt`.
 
 
