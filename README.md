@@ -66,6 +66,6 @@ https://github.com/Sjrobles/docker.git
     ```    
 
 4. **Resultados**:
-    - El script ejecutará cada uno de los lenguajes y mostrará en la consola los resultados ordenados por tiempo de ejecución.
+    - El script ejecutará cada uno de los lenguajes y mostrará en la consola los resultados ordenados por tiempo de ejecución, ademas, guardara el un .txt llamado benchmark_results.txt los resultados del benchmark, los cuales se sobreescribiran sobre resultados previos si es que se vuelve a correr el bash.
 
 
