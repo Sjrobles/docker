@@ -59,7 +59,7 @@ https://github.com/Sjrobles/docker.git
     ```bash
     ./ejecucion.sh
     ```
-4. **Ver el .txt con los resultados (opcional)*:
+4. **Ver el .txt con los resultados (opcional)**:
 
     ```bash
     cat benchmark_results.txt
