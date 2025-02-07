@@ -53,8 +53,7 @@ cd ..
 echo "Resultados ordenados:" > $RESULTS_FILE
 sort -t: -k2 -n $TEMP_FILE >> $RESULTS_FILE
 
-# Mostrar los resultados en consola
-cat $RESULTS_FILE
+
 
 # Mapear el archivo de resultados a un volumen en el contenedor
 docker run --rm -v $(pwd)/$RESULTS_FILE:/benchmark_results.txt alpine cat /benchmark_results.txt
