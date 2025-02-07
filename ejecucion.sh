@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESULTS_FILE="benchmark_results.txt"
-echo "Resultados del Benchmark:" > $RESULTS_FILE
+echo "Resultados del Benchmark:" | tee $RESULTS_FILE
 
 # Ejecutar Python
 echo "Entrando a la carpeta Python..."
@@ -44,8 +44,8 @@ echo "Ruby: $EXEC_TIME_RB ms" >> ../$RESULTS_FILE
 cd ..
 
 # Ordenar los tiempos de ejecución de menor a mayor
-echo "Resultados ordenados:" >> $RESULTS_FILE
-sort -t: -k2 -n $RESULTS_FILE -o $RESULTS_FILE
+echo "Resultados ordenados:" | tee -a $RESULTS_FILE
+sort -t: -k2 -n $RESULTS_FILE | tee -a $RESULTS_FILE
 
 # Mapear el archivo de resultados a un volumen en el contenedor
 docker run --rm -v $(pwd)/$RESULTS_FILE:/benchmark_results.txt alpine cat /benchmark_results.txt
