@@ -3,7 +3,10 @@
 RESULTS_FILE="benchmark_results.txt"
 TEMP_FILE="temp_results.txt"
 
-# Limpiar archivo de resultados
+# Limpiar archivos antes de escribir
+> $TEMP_FILE
+> $RESULTS_FILE
+
 echo "Resultados del Benchmark:" > $TEMP_FILE
 
 # Ejecutar Python
