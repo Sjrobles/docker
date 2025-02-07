@@ -59,6 +59,11 @@ https://github.com/Sjrobles/docker.git
     ```bash
     ./ejecucion.sh
     ```
+4. **Ver el .txt con los resultados (opcional) **:
+
+    ```bash
+    cat benchmark_results.txt
+    ```    
 
 4. **Resultados**:
     - El script ejecutará cada uno de los lenguajes y mostrará en la consola los resultados ordenados por tiempo de ejecución.
