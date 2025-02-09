@@ -14,7 +14,7 @@ https://github.com/Sjrobles/docker.git
 - **js/**: Contiene el script de JavaScript (`factorial.js`) y su `Dockerfile`.
 - **java/**: Contiene el script de Java (`factorial.java`) y su `Dockerfile`.
 - **cs/**: Contiene el script de C# (`factorial.cs`) y su `Dockerfile`.
--  **ruby/**: Contiene el script de C++ (`factorial.rb`) y su `Dockerfile`.
+-  **ruby/**: Contiene el script de Ruby (`factorial.rb`) y su `Dockerfile`.
 
 ### Archivos de salida:
 
